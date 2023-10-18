@@ -1,6 +1,6 @@
-# Copy-Pasta
+# Copy-Pasta-Text
 
-Hey there 👋! Welcome to Copy-Pasta. Ever needed to copy the content of files in VS Code directly to your clipboard? Now you can!
+Hey there 👋! Welcome to Copy-Pasta-Text. Ever needed to copy the content of files in VS Code directly to your clipboard? Now you can!
 
 ## Features
 
@@ -17,4 +17,4 @@ Easily copy the content of selected files in your VS Code workspace to your clip
 
 **Get it on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=BartoszWozniakSolutions.copy-pasta-text)!**
 
-Enjoy the ease Copy-Pasta brings to your workflow! 🎉
+Enjoy the ease Copy-Pasta-Text brings to your workflow! 🎉
