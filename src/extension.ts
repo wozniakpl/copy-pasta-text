@@ -34,7 +34,6 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     await vscode.env.clipboard.writeText(result);
-    vscode.window.showInformationMessage('Text has been copied to clipboard.');
   });
 
   context.subscriptions.push(disposable);
