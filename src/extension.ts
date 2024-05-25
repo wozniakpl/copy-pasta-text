@@ -42,9 +42,6 @@ export function activate(context: vscode.ExtensionContext) {
 function getContent(filePath: string): string {
   try {
     const buffer = fs.readFileSync(filePath);
-    if (buffer.length > 5000) {
-      return 'too big';
-    }
 
     const content = buffer.toString('utf-8');
 

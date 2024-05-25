@@ -2,7 +2,7 @@
   "name": "copy-pasta-text",
   "displayName": "copy-pasta-text",
   "description": "Enables copying the content of one or multiple files directly to your clipboard from within VS Code.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/wozniakpl/copy-pasta-text",
   "publisher": "BartoszWozniakSolutions",
   "engines": {
