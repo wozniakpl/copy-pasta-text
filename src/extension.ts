@@ -42,14 +42,8 @@ export function activate(context: vscode.ExtensionContext) {
 function getContent(filePath: string): string {
   try {
     const buffer = fs.readFileSync(filePath);
-
     const content = buffer.toString('utf-8');
-
-    if (isText(content)) {
-      return content;
-    } else {
-      return 'not text';
-    }
+    return content;
   } catch (error) {
     return 'unreadable';
   }

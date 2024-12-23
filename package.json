@@ -2,7 +2,7 @@
   "name": "copy-pasta-text",
   "displayName": "copy-pasta-text",
   "description": "Enables copying the content of one or multiple files directly to your clipboard from within VS Code.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "https://github.com/wozniakpl/copy-pasta-text",
   "publisher": "BartoszWozniakSolutions",
   "engines": {
@@ -41,18 +41,18 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.83.0",
     "@types/mocha": "^10.0.2",
     "@types/node": "18.x",
+    "@types/vscode": "^1.83.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
+    "@vscode/test-electron": "^2.3.4",
     "eslint": "^8.50.0",
     "glob": "^10.3.3",
     "mocha": "^10.2.0",
-    "typescript": "^5.2.2",
     "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "@vscode/test-electron": "^2.3.4"
+    "webpack-cli": "^5.1.4"
   }
 }
